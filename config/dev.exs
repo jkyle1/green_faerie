@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :greenfy, Greenfy.Repo,
   username: "postgres",
-  password: "mf4hdt94",
+  password: "test",
   database: "greenfy_dev",
   hostname: "localhost",
 	  show_sensitive_data_on_connection_error: true,
