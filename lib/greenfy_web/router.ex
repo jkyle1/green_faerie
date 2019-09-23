@@ -15,12 +15,12 @@ defmodule GreenfyWeb.Router do
 
   # scope "/", GreenfyWeb do
   #   pipe_through :browser
-  # 
+  #
   #   get "/", PageController, :index
   # end
 
   # Other scopes may use custom stacks.
-  scope "/api", do
+  scope "/api" do
     pipe_through :api
 
     forward "/graphiql", Absinthe.Plug.GraphiQL, schema: Greenfy.Schema
